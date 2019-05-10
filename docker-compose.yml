@@ -1,7 +1,14 @@
 version: '3'
 services:
-  bd:
+  api:
     image: "edserlabs/node-edser"
     container_name: NodeApi
     ports:
     - "4002:4000"
+  bd:
+    image: "mysql:5.7"
+    container_name: mysql
+    ports: 
+      - "3306:3306"
+    environments:
+      - "MYSQL_ROOT_PASSWORD=12345678"
