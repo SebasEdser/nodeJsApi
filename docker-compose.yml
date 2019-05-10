@@ -1,0 +1,7 @@
+version: '3'
+services:
+  bd:
+    image: "edserlabs/node-edser"
+    container_name: NodeApi
+    ports:
+    - "4002:4000"

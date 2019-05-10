@@ -1,5 +1,5 @@
 {
-  "name": "nodeJsApi", 
+  "name": "nodeJsApi",
   "version": "1.0.0",
   "description": "Backend of Edserlabs",
   "main": "index.js",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/SebasEdser/nodeJsApi#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pm2": "^3.5.0"
   },
   "devDependencies": {
     "mocha": "^6.1.4",
